@@ -1,0 +1,114 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	/*transition: all 0.6s;*/
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	min-width: 1300px;
+	background: url(../image/backg_1.jpg) no-repeat center;
+	background-size: 100% 100%;
+	padding-top: 40px;
+}
+
+@font-face {
+	font-family: 'new_font';
+	src: url('fontname.eot');
+	src: local('fontname Regular'), local('fontname'), url('fontname.woff') format('woff'), url('fontname.ttf') format('truetype'), url('fontname.svg#fontname') format('svg');
+}
+
+.h_1 {
+	font-family: 'new_font';
+	font-size: 100px;
+	text-align: center;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.div_1 {
+	height: 200px;
+	width: 450px;
+	margin: 0px auto;
+}
+
+.div_1 img:nth-of-type(1) {
+	float: left;
+}
+
+.div_1 img:nth-of-type(2) {
+	float: right;
+}
+
+.div_2 {
+	width: 1300px;
+	margin: 40px auto;
+	margin-top: 80px;
+	height: 140px;
+	background: url(../image/backg_2.png) no-repeat center;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.div_2 div {
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+}
+
+.div_2 div:nth-of-type(1) {
+	background: url(../image/img_1.png) no-repeat center;
+	background-size: 100% 100%;
+}
+
+.div_2 div:nth-of-type(2) {
+	background: url(../image/img_2.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.div_2 div:nth-of-type(3) {
+	background: url(../image/img_3.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.div_2 div:nth-of-type(4) {
+	background: url(../image/img_4.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.div_2 div:nth-of-type(5) {
+	background: url(../image/img_5.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.div_2 div:nth-of-type(6) {
+	background: url(../image/img_6.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.div_2 div:nth-of-type(7) {
+	background: url(../image/img_7.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.div_2 div:nth-of-type(8) {
+	background: url(../image/img_8.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.div_2 div:nth-of-type(9) {
+	background: url(../image/img_9.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.div_2 div:nth-of-type(10) {
+	background: url(../image/img_10.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.div_2 div:nth-of-type(11) {
+	background: url(../image/img_11.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.div_2 div:nth-of-type(12) {
+	background: url(../image/img_12.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.posi {
+	position: absolute;
+}
